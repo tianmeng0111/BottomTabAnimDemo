@@ -67,7 +67,7 @@ public class TabAnimView extends View {
     }
 
     private void init(Context context) {
-        //绘制白色背景和曲线的区域
+        //绘制内容区域
         contentSize = DensityUtils.dp2px(context, 50);
         //线距离顶部距离
         lineToTop = DensityUtils.dp2px(context, 50);
